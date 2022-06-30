@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+	color:#11999e;
+}
+body{
+	background-color:#ddd;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	margin:0 auto;
+	max-width:960px;
+	background-color:#E4F9F5;
+	padding:15px;
+}
+
+.myimg{
+	width:100px;
+	height:120px;
+	border:3px solid white;
+	border-radius:50%;
+	float:left;
+}
+.header-name{
+	float:left;
+	padding:26px;
+}
+.header-contact{
+	float:right;
+	padding:30px;
+	
+}
+.header-contact a{
+	text-decoration:none;
+	color:teal;
+	font-weight:bold;
+	
+}.header-contact a:hover{
+	text-decoration:underline;
+	color:tomato;
+	
+}
+
+.div-clear{
+	clear:both;
+}
+
+hr{
+	border:3px solid  black;
+	width:100%;
+	margin:20px auto;
+	border-bottom:none;
+}
+
+/*personal section start*/
+
+#personal-section{
+	
+}
+.content{
+	margin-bottom:30px;
+	
+}
+.left-div{
+	width:30%;
+	float:left;
+}
+.right-div{
+	width:70%;
+	float:left;
+}
+
+.common-hr{
+	border:1px solid black;
+	border-bottom:none;
+	width:100%;
+	margin:20px auto;
+	border-bottom:none;
+}
+
+/* Education Section part*/
+
+.edu-template-left{
+	float:left;
+	width:45%;
+	
+}
+.edu-template-right{
+	float:right;
+	width:45%;
+	
+}
+
+/* ----------*/
+.edu-template-left a, .edu-template-right a{
+	text-decoration:none;
+	color:#000000;
+	
+}
+.edu-template-left a:hover, .edu-template-right a:hover{
+	text-decoration:underline;
+	color:tomato;
+}
+/* ----------*/
+
+
+/* footer part*/
+
+.footer-part{
+	background-color:black;
+	text-align:center;
+	padding:10px;
+}
+.footer-part a{
+	color:white;
+	text-decoration:none;
+	margin:20px;
+}
+
+.footer-part a:hover{
+	color:pink;
+	text-decoration:underline;
+	margin:20px;
+}
+
+.footer-part p{
+	color:white;
+	margin-top:20px;
+}
+
+
+
+
+
+
